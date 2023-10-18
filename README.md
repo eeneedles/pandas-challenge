@@ -1,5 +1,5 @@
 # pandas-challenge
-A project analyzing district-wide standardized test results using pandas
+This is a project analyzing district-wide standardized test results using pandas.  Included is a Resources folder containing two cvs files with math and reading test scores and budgetary information for the district by school and by student, a jupiter notebook file, and a README file.  
 
 PyCitySchools_starter is a jupyter notebook file containing calculations, summaries, and counts for schools, students, budgets, math scores and reading scores.
 
@@ -7,6 +7,6 @@ A DataFrame was created merging two csv files for school data and student data o
 
 A second Data Frame was completed for the summary of each school, which included the calculations for number of students, school budget, per capita spending, average test scores, number of passing math and reading scores, number of students who passed both math and reading, and the passing rates for math, reading, and overall passing.
 
-This project isn't completed yet but it will include the highest and lowest performing schools by percentage, math and reading scores by grade, scores by budget, and scores by school size and type.
+The dataset was sorted to show the five highest and lowest performing schools by percentage.  Other DataFrames include the math and reading scores by grade, scores by school budget, and scores by school size and type.  The markdown cell includes an analysis of the observable trends in the data.
 
-Source for .nunique function is statology.org/pandas-count-unique-values/
+Source for .nunique function: statology.org/pandas-count-unique-values/
